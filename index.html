@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO base -->
+  <title>Pietro Cimino | Portfolio Personale</title>
+  <meta name="description" content="Portfolio personale di Pietro Cimino: curriculum, progetti, contatti e servizi di informatica a Corigliano-Rossano.">
+  <meta name="author" content="Pietro Cimino">
+  <meta name="keywords" content="Pietro Cimino, portfolio, curriculum, progetti, sviluppatore, informatico, Corigliano-Rossano">
+  <!-- Per Google -->
+  <meta name="robots" content="index, follow">
+  <!-- Open Graph (Facebook, LinkedIn, ecc...) -->
+  <meta property="og:title" content="Portfolio di Pietro Cimino">
+  <meta property="og:description" content="Curriculum, progetti e contatti di Pietro Cimino. Scopri chi sono e i miei servizi di informatica.">
+  <meta property="og:image" content="https://iltuosito.netlify.app/foto/foto1.jpg">
+  <meta property="og:url" content="https://iltuosito.netlify.app/">
+  <meta property="og:type" content="website">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Portfolio di Pietro Cimino">
+  <meta name="twitter:description" content="Curriculum, progetti e contatti di Pietro Cimino. Scopri chi sono e i miei servizi di informatica.">
+  <meta name="twitter:image" content="https://iltuosito.netlify.app/foto/foto1.jpg">
+  <!-- Favicon -->
+  <link rel="icon" href="foto/foto1.jpg" type="image/png">
+  <!-- CSS e librerie -->
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header con navigazione -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="#home">Pietro Cimino | Portfolio Personale</a>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#chi-sono" class="nav-link">Chi Sono</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#curriculum" class="nav-link">Curriculum</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#progetti" class="nav-link">Progetti</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contatti" class="nav-link">Contatti</a>
+                    </li>
+                </ul>
+                <div class="nav-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Sezione Hero -->
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class= "hero-title"> <span class="highlight">Benvenuto!</span></h1>
+                    <p class="hero-subtitle">Questo è uno spazio personale dove presento il mio percorso, le mie competenze e i progetti che ho realizzato.</p>
+                    <p class="hero-description">
+                        Mi presento, sono Pietro Cimino e sono un giovane laureato in Informatica presso l’Università della Calabria. 
+                        Attualmente sto frequentando la laurea magistrale in Informatica per il Management presso l’Università di Bologna. 
+                        Negli anni ho maturato esperienze in diverse aree dell'informatica: assistenza tecnica, sviluppo di software e siti web, 
+                        gestione online di strutture ricettive e creazione di soluzioni digitali personalizzate. 
+                        La mia passione è trasformare le idee in strumenti utili, sicuri e innovativi, per aiutare persone e aziende a crescere nel mondo digitale.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#progetti" class="btn btn-primary">Vedi i Miei Progetti</a>
+                        <a href="#contatti" class="btn btn-secondary">Contattami</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="./foto/foto1.jpg" alt="Foto profilo">
+                </div>
+            </div>
+        </section>
+
+        <!-- Sezione Chi Sono -->
+        <section id="chi-sono" class="about">
+            <div class="container">
+                <h2 class="section-title">Chi Sono</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p class="hero-description">
+                            Sono nato a Corigliano-Rossano, nella splendida Calabria, e fin da bambino sono stato profondamente 
+                            affascinato dal mondo dei computer e delle tecnologie digitali. La mia passione è nata in un 
+                            negozio di informatica, dove trascorrevo ore esplorando 
+                            hardware e software con curiosità e meraviglia. Questo interesse si è consolidato nel corso degli anni 
+                            e mi ha accompagnato durante tutta la scuola superiore, periodo in cui ho avuto l’opportunità di 
+                            supportare la scuola nella manutenzione e nella risoluzione dei problemi dei sistemi informatici, 
+                            trasformando una curiosità iniziale in una vera e propria competenza pratica.
+                        </p>
+                        <p>
+                            Oggi sono un ragazzo semplice, motivato e curioso, con una grande voglia di sperimentare e imparare continuamente. 
+                            Amo creare soluzioni digitali utili alle persone e mi piace lavorare in team, condividendo idee e collaborando per 
+                            raggiungere obiettivi comuni.
+                        </p>
+                    </div>
+                    <div class="skills">
+                        <h3>Le Mie Competenze</h3>
+                        <div class="skills-grid">
+                            <!-- Card 1: Programmazione -->
+                            <div class="skill-item">
+                                <i class="fas fa-laptop-code"></i>
+                                <h4>Sviluppo Software</h4>
+                                <p>HTML, CSS, JavaScript, Angular, Python, Java, C++, C, SQL, NoSQL e altro.</p>
+                            </div>
+
+                            <!-- Card 2: Reti e Sicurezza -->
+                            <div class="skill-item">
+                                <i class="fas fa-network-wired"></i>
+                                <h4>Reti & Sicurezza</h4>
+                                <p>TCP/IP, configurazione reti, gestione firewall, sicurezza di rete e altro.</p>
+                            </div>
+
+                            <!-- Card 3: Assistenza IT -->
+                            <div class="skill-item">
+                                <i class="fas fa-tools"></i>
+                                <h4>Assistenza IT</h4>
+                                <p>Riparazioni PC e device, supporto hardware/software, manutenzione e configurazioni.</p>
+                            </div>
+
+                            <!-- Card 4: Gestione Strutture Ricettive -->
+                            <div class="skill-item">
+                                <i class="fas fa-hotel"></i>
+                                <h4>Gestione Online Strutture Ricettive</h4>
+                                <p>Gestione portali OTA, ottimizzazione prenotazioni e attività amministrative.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sezione Curriculum -->
+        <section id="curriculum" class="resume">
+            <div class="container">
+                <h2 class="section-title">Curriculum</h2>
+                <div class="resume-content">
+                    <div class="resume-column">
+                        <h3><i class="fas fa-briefcase"></i> Esperienza Lavorativa</h3>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-date">aprile 2021 - in corso </div>
+                                <div class="timeline-content">
+                                    <h4>Gestione Online Strutture Ricettive</h4>
+                                    <h5>Autonomo</h5>
+                                    <p>
+                                        Gestione delle piattaforme di prenotazione online (Booking, Airbnb, ecc.); 
+                                        ottimizzazione delle inserzioni e dei prezzi; 
+                                        coordinamento delle comunicazioni con gli ospiti; 
+                                        monitoraggio delle recensioni e miglioramento della reputazione digitale; 
+                                        sviluppo e manutenzione di siti web dedicati alle strutture ricettive.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">  
+                                <div class="timeline-date">gennaio 2021 - in corso</div>
+                                <div class="timeline-content">
+                                    <h4>Tecnico Informatico</h4>
+                                    <h5>Autonomo</h5>
+                                    <p>
+                                        Installazione, configurazione e manutenzione di sistemi hardware e software; 
+                                        individuazione e risoluzione di malfunzionamenti; assistenza tecnica agli utenti; 
+                                        gestione di reti locali, dispositivi periferici e sistemi operativi; 
+                                        aggiornamento e ottimizzazione delle postazioni di lavoro per garantire efficienza e sicurezza.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">    
+                                <div class="timeline-date">gennaio 2015 - dicembre 2020</div>
+                                <div class="timeline-content">
+                                    <h4>Tecnico Informatico</h4>
+                                    <h5>Soluzioni Informatiche di Oretti Raffaele S.A.S</h5>
+                                    <p>
+                                        Assistenza clienti nella scelta di prodotti tecnologici;
+                                        riparazioni hardware e interventi tecnici su PC e periferiche; 
+                                        supporto nella gestione del magazzino e del punto vendita; 
+                                        gestione di operazioni di cassa e fatturazione semplice.
+                                    </p>
+                                </div>    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="resume-column">
+                        <h3><i class="fas fa-graduation-cap"></i> Formazione</h3>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-date">ottobre 2025 - in corso</div>
+                                <div class="timeline-content">
+                                    <h4>Laurea Magistrale</h4>
+                                    <h5>Università di Bologna</h5>
+                                    <p>Laurea Magistrale in Informatica con percorso Informatica per il Management</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-date">ottobre 2021 - aprile 2025</div>
+                                <div class="timeline-content">
+                                    <h4>Laurea Triennale</h4>
+                                    <h5>Università della Calabria</h5>
+                                    <p>Laurea Triennale in Informatica con percorso Enterprise Applications</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-date">settembre 2016 - giugno 2021</div>
+                                <div class="timeline-content">
+                                    <h4>Diploma</h4>
+                                    <h5>Liceo Scientifico F. Bruno</h5>
+                                    <p>Diploma di Maturità Scientifica con formazione in ambito scientifico e tecnologico</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sezione Progetti -->
+        <section id="progetti" class="projects">
+            <div class="container">
+                <h2 class="section-title">I Miei Progetti</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="foto/CarDoc.png">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/HackPietro/CarDocWeb" class="project-link"><i class="fab fa-github"></i></a>
+                                    <a href="https://github.com/HackPietro/CarDocDesktop" class="project-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>CarDoc</h3>
+                            <p>CarDoc è un progetto universitario realizzato sia in versione web per il corso di Web Applications con backend in Java e frontend in Angular e sia in versione Desktop per il corso di User Interfaces Design con backend in Java e interfaccia in FXML e CSS</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Angular</span>
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">TypeScript</span>
+                                <span class="tech-tag">Java</span>
+                                <span class="tech-tag">FXML</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="foto/DolcevitaYachteSail.png">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/HackPietro/DolcevitaYachteSail" class="project-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Dolcevita Yacht & Sail</h3>
+                            <p>Dolcevita Yacht & Sail è un progetto universitario per il corso di Ingegneria del Software, focalizzato sull'applicazione dei pattern di programmazione. In particolare, sono stati utilizzati i design pattern Proxy e Prototype. Il progetto è stato sviluppato in Java, con un'interfaccia grafica implementata tramite CSS e FXML. È inclusa anche la stesura della documentazione.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Java</span>
+                                <span class="tech-tag">FXML</span>
+                                <span class="tech-tag">CSS</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="foto/Lemu.png">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/Projettone" class="project-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Lemu</h3>
+                            <p>Lemu è un progetto universitario per il corso di Enterprise Applications, focalizzato sulla programmazione mobile, in particolare su Android. Il progetto è stato sviluppato in Java per il backend e in Kotlin per il frontend, integrando Spring Security e OAuth 2.0 per garantire un sistema di autenticazione sicuro e la protezione dei dati degli utenti.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Java</span>
+                                <span class="tech-tag">Kotlin</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="foto/LuxuryPerformanceCars.png">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/HackPietro/LuxuryPerformanceCars" class="project-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Luxury Performance Cars</h3>
+                            <p>Luxury Performance Cars è un'applicazione web sviluppata durante il mio tirocinio presso l'Università della Calabria. L'obiettivo dell'applicazione è duplice: offrire all’utente un’esperienza di ricerca delle auto fluida e ottimizzata per ogni esigenza e fornire all’amministratore del sistema strumenti avanzati per analizzare i dati e ottenere una visione chiara delle azioni degli utenti, così da comprenderne le richieste e soddisfarle nel tempo. Tra le funzionalità principali vi sono una sofisticata analisi dei dati e un algoritmo di machine learning per predire il potenziale successo di vendita di un’auto, sulla base di parametri elaborati.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Angular</span>
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">TypeScript</span>
+                                <span class="tech-tag">Java</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="foto/LeucosiaLuxurySuites.png">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/HackPietro/LeucosiaLuxurySuites" class="project-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Leucosia Luxury Suites</h3>
+                            <p>Leucosia Luxury Suites è un progetto universitario sviluppato in versione web per il corso magistrale di Piattaforme Software per Applicazioni sul Web, con backend in Java e frontend in Angular. La sicurezza è stata gestita tramite Spring Security con autenticazione basata su JWT e gestione delle sessioni tramite cookie. Inoltre, è stato integrato un sistema di notifiche via email SMTP per mantenere l’utente costantemente aggiornato sulle azioni effettuate sul proprio account.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Angular</span>
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">TypeScript</span>
+                                <span class="tech-tag">Java</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="foto/GestIn.png">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/HackPietro" class="project-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Gest-in</h3>
+                            <p>Gest-in è un’applicazione pensata per semplificare la gestione delle prenotazioni di una struttura ricettiva, raccogliendo in un’unica agenda tutte le prenotazioni ricevute dalle diverse piattaforme di booking, evitando così l'overbooking.</p>
+                            <p>Con Gest-in puoi:</p>
+                            <p>
+                            • Visualizzare in modo chiaro e unificato tutte le prenotazioni.<br>
+                            • Tenere sotto controllo i giorni di pulizia e le attività di housekeeping.<br>
+                            • Aggiungere manualmente prenotazioni e pulizie programmate.<br>
+                            • Gestire l’agenda in tempo reale, ottimizzando il lavoro dello staff.
+                            </p>
+                            <p>Il tutto con un’interfaccia semplice, intuitiva e studiata per risparmiare tempo.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">FXML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">Java</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sezione Contatti -->
+        <section id="contatti" class="contact">
+            <div class="container">
+                <h2 class="section-title">Contattami</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Informazioni di Contatto</h3>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>pietrocimino3@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Telefono</h4>
+                                <p>+39 389 2347941</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Località</h4>
+                                <p>Corigliano-Rossano, Cosenza, Calabria, Italia</p>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/pietro-cimino-897241180/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/HackPietro" class="social-link"><i class="fab fa-github"></i></a>
+                            <a href="https://www.instagram.com/piecimino/" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/pietro.cimino.56" class="social-link"><i class="fab fa-facebook"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <h3>Inviami un Messaggio</h3>
+                        <form onsubmit="sendMail(event)">
+                            <div class="form-group">
+                                <input type="text" id="nome" name="nome" placeholder="Il tuo nome" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="cognome" name="cognome" placeholder="Il tuo cognome" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="oggetto" name="oggetto" placeholder="Oggetto del messaggio" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="messaggio" name="messaggio" placeholder="Il tuo messaggio" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Invia Messaggio</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Pietro Cimino. Tutti i diritti riservati.</p>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#chi-sono">Chi Sono</a>
+                    <a href="#curriculum">Curriculum</a>
+                    <a href="#progetti">Progetti</a>
+                    <a href="#contatti">Contatti</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript per la navigazione mobile -->
+    <script>
+        // Toggle menu mobile
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navMenu = document.querySelector('.nav-menu');
+
+        mobileMenu.addEventListener('click', () => {
+            mobileMenu.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+
+        // Chiudi menu quando si clicca su un link
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.remove('active');
+                navMenu.classList.remove('active');
+            });
+        });
+
+        // Smooth scrolling per i link interni
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Evidenzia il link attivo nella navigazione
+        window.addEventListener('scroll', () => {
+            let current = '';
+            const sections = document.querySelectorAll('section');
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (scrollY >= (sectionTop - 200)) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // Animazioni on-scroll
+        document.addEventListener("DOMContentLoaded", () => {
+            const elements = document.querySelectorAll(".project-card, .skill-item, .timeline-item");
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add("visible");
+                    } else {
+                        entry.target.classList.remove("visible");
+                    }
+                });
+            }, { threshold: 0.2 });
+
+            elements.forEach(el => observer.observe(el));
+        });
+
+        function sendMail(e) {
+            e.preventDefault();
+            const nome = document.getElementById('nome').value;
+            const cognome = document.getElementById('cognome').value;
+            const oggetto = document.getElementById('oggetto').value;
+            const messaggio = document.getElementById('messaggio').value;
+
+            window.location.href = `mailto:pietrocimino3@gmail.com?subject=${encodeURIComponent(oggetto)}&body=${encodeURIComponent("Ciao, sono " + nome + " " + cognome + "\n\n" + messaggio)}`;
+        }
+
+    </script>
+</body>
+</html>
